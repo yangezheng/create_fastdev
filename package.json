@@ -1,0 +1,22 @@
+{
+  "name": "@yangezheng/create-fastdev",
+  "version": "0.2.0",
+  "description": "CLI to scaffold FastDev fullstack template",
+  "bin": {
+    "create-fastdev": "./index.js"
+  },
+  "type": "module",
+  "keywords": [
+    "fastapi",
+    "vite",
+    "react",
+    "supabase",
+    "template",
+    "cli"
+  ],
+  "author": "yangezheng",
+  "license": "MIT",
+  "dependencies": {
+    "prompts": "^2.4.2"
+  }
+}
