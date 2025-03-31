@@ -24,7 +24,7 @@ const response = await prompts({
   type: 'toggle',
   name: 'useSupabase',
   message: 'Use Supabase for Auth & DB?',
-  initial: true,
+  initial: false,
   active: 'yes',
   inactive: 'no'
 })
