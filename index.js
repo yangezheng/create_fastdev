@@ -78,6 +78,17 @@ if (existsSync(variantsDir)) {
   rmSync(variantsDir, { recursive: true, force: true })
 }
 
+// Step 6: install dependencies
+console.log('📦 Installing dependencies...')
+execSync('npm install', { cwd: projectName })
+execSync('npm install', { cwd: path.join(projectName, 'frontend') })
+
+// Step 7: Initialize git
+execSync('git init', { cwd: projectName })
+execSync('git add .', { cwd: projectName })
+execSync('git commit -m "🎉 initial commit from create-fastdev"', { cwd: projectName })
+
+
 console.log(`✅ Project created at ./${projectName}`)
 
 console.log(`

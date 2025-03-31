@@ -1,6 +1,6 @@
 {
   "name": "@yangezheng/create-fastdev",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "CLI to scaffold FastDev fullstack template",
   "bin": {
     "create-fastdev": "./index.js"
