@@ -2,14 +2,6 @@
 
 Create FastDev is a tool designed to streamline and accelerate your development workflow.
 
-## Installation
-
-To install the package, run:
-
-```bash
-npm install @yangezheng/create-fastdev
-```
-
 ## Usage
 
 After installation, you can use the tool by running:
