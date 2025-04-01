@@ -80,7 +80,7 @@ if (existsSync(variantsDir)) {
 
 // Step 6: install dependencies
 console.log('📦 Installing dependencies...')
-execSync('npm install', { cwd: projectName })
+execSync('poetry install', { cwd: path.join(projectName, 'backend') })
 execSync('npm install', { cwd: path.join(projectName, 'frontend') })
 
 // Step 7: Initialize git
